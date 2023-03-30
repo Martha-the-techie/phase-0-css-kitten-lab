@@ -15,15 +15,15 @@
 }
 
 /* images/kitty-3.png */
-img kitty-3 {
+#basket img {
   position: absolute;
-  z-index: 5;
+  z-index: 3;
   top: 291px;
   left: 319px;
 }
 
 /* images/kitty-4.png */
-div + kitty-4 {
+#ball + img {
   position: absolute;
   z-index: 4;
   top: 260px;
@@ -31,9 +31,9 @@ div + kitty-4 {
 }
 
 /* images/kitty-5.png */
-<input type="img" value="kitty-5"/> {
+img[alt="Kitty 5"] {
   position: absolute;
-  z-index: 3;
+  z-index: 5;
   top: 217px;
   left: 223px;
 }
